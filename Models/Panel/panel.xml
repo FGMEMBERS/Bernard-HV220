@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- alt -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Panel/Instruments/alt/altimeter.xml</path>
+    <offsets>
+      <x-m>  0.072 </x-m>
+      <y-m> -0.093 </y-m>
+      <z-m> -0.041 </z-m>
+    </offsets>
+  </model>
+
+  <!-- asi -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.072 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.007 </z-m>
+    </offsets>
+  </model>
+
+  <!-- fuel -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Panel/Instruments/fuel/fuel.xml</path>
+    <offsets>
+      <x-m>  0.072 </x-m>
+      <y-m>  0.095 </y-m>
+      <z-m> -0.044 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Rpm -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Panel/Instruments/rpm/rpm.xml</path>
+    <offsets>
+      <x-m>  0.072 </x-m>
+      <y-m> -0.168 </y-m>
+      <z-m> -0.096 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
+
