@@ -24,13 +24,6 @@
       <path archive="y">Aircraft/Bernard-HV220/Models/hv220.xml</path>
     </model>
 
-<!--
-    <submodels> 
-      <serviceable>true</serviceable>
-      <path>Aircraft/Bernard-HV220/Models/Effects/submodels.xml</path>
-    </submodels>
--->
-
     <multiplay>
       <chat_display>1</chat_display>
     </multiplay> 

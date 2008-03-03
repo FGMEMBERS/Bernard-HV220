@@ -42,6 +42,84 @@
     <object-name>vitres</object-name>
   </animation>
 
+  <!-- Trainée gauche -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/wakeG.xml</path>
+    <offsets>
+      <x-m>  2.207 </x-m>
+      <y-m> -1.257 </y-m>
+      <z-m> -1.495 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg> -45.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+
+  <!-- Trainée droite -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/wakeD.xml</path>
+    <offsets>
+      <x-m>  2.207 </x-m>
+      <y-m>  1.257 </y-m>
+      <z-m> -1.495 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg> -45.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+
+  <!-- Eclaboussures, avant gauche -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/jetG.xml</path>
+    <offsets>
+      <x-m> -4.397 </x-m>
+      <y-m> -1.257 </y-m>
+      <z-m> -1.606 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg> -90.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+
+  <!-- Eclaboussures, avant droite -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/jetD.xml</path>
+    <offsets>
+      <x-m> -4.397 </x-m>
+      <y-m>  1.257 </y-m>
+      <z-m> -1.606 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg> -90.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+
+  <!-- Eclaboussures, centre gauche -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/jetmG.xml</path>
+    <offsets>
+      <x-m> -1.219 </x-m>
+      <y-m> -1.257 </y-m>
+      <z-m> -1.584 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg> -90.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+
+  <!-- Eclaboussures, centre droite -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/jetmD.xml</path>
+    <offsets>
+      <x-m> -1.219 </x-m>
+      <y-m>  1.257 </y-m>
+      <z-m> -1.584 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg> -90.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model> 
+
   <!-- Pilote -->
   <model>
     <name>Pilote</name>
