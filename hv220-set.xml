@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
-<!-- <PropertyList include="hv220-jsbsim-set.xml"> -->
-<PropertyList include="hv220-yasim-set.xml">
+<!-- <PropertyList include="hv220-jsbsim-cnf.xml"> -->
+<PropertyList include="hv220-yasim-cnf.xml">
 
   <sim>
     <description>Bernard HV 220</description>

@@ -13,7 +13,7 @@
     <type type="string">seaplane</type>
   
     <startup>
-      <splash-texture>Aircraft/Bernard-HV220/hv220-splash.rgb</splash-texture>
+      <splash-texture>Aircraft/Bernard-HV220/hv220-splash.png</splash-texture>
     </startup>
   
     <sound>
@@ -22,11 +22,22 @@
 
     <model>
       <path archive="y">Aircraft/Bernard-HV220/Models/hv220.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
     </model>
 
     <multiplay>
       <chat_display>1</chat_display>
-    </multiplay> 
+      <generic>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+      </generic>
+    </multiplay>
 
     <help>
       <title>Bernard HV 220</title>
@@ -45,6 +56,8 @@
       <line>______________________________________________</line>
     </help>
 
+    <menubar include="Dialogs/hv220-menu.xml"/>
+
   </sim>
 
   <input>
@@ -54,6 +67,7 @@
   <nasal>
     <hv220> 
       <file>Aircraft/Bernard-HV220/Nasal/doors.nas</file>
+      <file>Aircraft/Bernard-HV220/Nasal/liveries.nas</file>
     </hv220>
   </nasal>
 

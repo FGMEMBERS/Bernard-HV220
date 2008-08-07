@@ -13,7 +13,7 @@
 
   <!-- alt -->
   <model>
-    <path>Aircraft/Bernard-HV220/Models/Panel/Instruments/alt/altimeter.xml</path>
+    <path>Aircraft/Bernard-HV220/Models/Interior/Panel/Instruments/alt/altimeter.xml</path>
     <offsets>
       <x-m>  0.072 </x-m>
       <y-m> -0.093 </y-m>
@@ -23,7 +23,7 @@
 
   <!-- asi -->
   <model>
-    <path>Aircraft/Bernard-HV220/Models/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/Bernard-HV220/Models/Interior/Panel/Instruments/asi/asi.xml</path>
     <offsets>
       <x-m>  0.072 </x-m>
       <y-m>  0.000 </y-m>
@@ -33,7 +33,7 @@
 
   <!-- fuel -->
   <model>
-    <path>Aircraft/Bernard-HV220/Models/Panel/Instruments/fuel/fuel.xml</path>
+    <path>Aircraft/Bernard-HV220/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
     <offsets>
       <x-m>  0.072 </x-m>
       <y-m>  0.095 </y-m>
@@ -43,7 +43,7 @@
 
   <!-- Rpm -->
   <model>
-    <path>Aircraft/Bernard-HV220/Models/Panel/Instruments/rpm/rpm.xml</path>
+    <path>Aircraft/Bernard-HV220/Models/Interior/Panel/Instruments/rpm/rpm.xml</path>
     <offsets>
       <x-m>  0.072 </x-m>
       <y-m> -0.168 </y-m>

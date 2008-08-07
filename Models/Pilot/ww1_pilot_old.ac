@@ -6,7 +6,7 @@ OBJECT poly
 name "avantbrasD"
 data 10
 avantbrasD
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 35
@@ -257,7 +257,7 @@ OBJECT poly
 name "avantbrasG"
 data 10
 avantbrasG
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 183
@@ -1763,7 +1763,7 @@ OBJECT poly
 name "brasD"
 data 5
 brasD
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 22
@@ -1945,7 +1945,7 @@ OBJECT poly
 name "brasG"
 data 5
 brasG
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 32
@@ -2187,7 +2187,7 @@ OBJECT poly
 name "corps"
 data 5
 corps
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 422
@@ -4870,7 +4870,7 @@ OBJECT poly
 name "cuisseD"
 data 11
 cuisseD.001
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 30
@@ -5078,7 +5078,7 @@ OBJECT poly
 name "cuisseG"
 data 7
 cuisseD
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 30
@@ -5279,7 +5279,7 @@ OBJECT poly
 name "jambeD"
 data 6
 jambeD
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 112
@@ -6112,7 +6112,7 @@ OBJECT poly
 name "jambeG"
 data 6
 jambeG
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 112
@@ -6945,7 +6945,7 @@ OBJECT poly
 name "lunettes"
 data 8
 lunettes
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 165
@@ -8158,7 +8158,7 @@ OBJECT poly
 name "manche"
 data 6
 manche
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 342
@@ -10745,7 +10745,7 @@ OBJECT poly
 name "piedD"
 data 5
 piedD
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 51
@@ -11092,7 +11092,7 @@ OBJECT poly
 name "piedG"
 data 5
 piedG
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 51
@@ -11439,7 +11439,7 @@ OBJECT poly
 name "tete"
 data 4
 tete
-texture "ww1_pilot_old.rgb"
+texture "ww1_pilot_old.png"
 texrep 1 1
 crease 30.000000
 numvert 703
