@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <PropertyList>
 
@@ -25,10 +25,12 @@
 
     <attach>world</attach>
         
+    <align>billboard</align>
+
     <placer>
       <type>point</type>
     </placer>
-        
+
     <shooter>
       <theta-min-deg>84</theta-min-deg>
       <theta-max-deg>86</theta-max-deg>
@@ -39,23 +41,21 @@
         <spread>2.5</spread>
       </speed-mps>
       <rotation-speed>
-        <x-min-deg-sec>5</x-min-deg-sec>
-        <y-min-deg-sec>5</y-min-deg-sec>
-        <z-min-deg-sec>5</z-min-deg-sec>
-        <x-max-deg-sec>25</x-max-deg-sec>
-        <y-max-deg-sec>25</y-max-deg-sec>
-        <z-max-deg-sec>25</z-max-deg-sec>
+        <x-min-deg-sec>0</x-min-deg-sec>
+        <y-min-deg-sec>0</y-min-deg-sec>
+        <z-min-deg-sec>0</z-min-deg-sec>
+        <x-max-deg-sec>0</x-max-deg-sec>
+        <y-max-deg-sec>0</y-max-deg-sec>
+        <z-max-deg-sec>0</z-max-deg-sec>
       </rotation-speed>
     </shooter>
-        
+
     <counter>
       <particles-per-sec>
         <value>150</value>
         <spread>0</spread>
       </particles-per-sec>
     </counter>
-        
-    <align>billboard</align>
         
     <particle>
       <start>
@@ -107,9 +107,9 @@
     </particle>
         
     <program>
-      <fluid>water</fluid>
-      <gravity>true</gravity>
-      <wind>false</wind>
+      <fluid>   water </fluid>
+      <gravity> true </gravity>
+      <wind>    false </wind>
     </program>
         
   </particlesystem>
