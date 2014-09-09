@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+ 
+    <author>Emmanuel BARANGER (3D), Pierre GEOFFROY (FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>0.1 Alpha</status>
+   
+    <fuel-fraction>0.8</fuel-fraction>
+  
+    <type type="string">seaplane</type>
+  
+    <startup>
+      <splash-texture>Aircraft/Bernard-HV220/hv220-splash.png</splash-texture>
+    </startup>
+  
+    <sound>
+      <path>Aircraft/Bernard-HV220/Sounds/hv220-sound.xml</path>
+    </sound>
+
+    <model>
+      <path archive="y">Aircraft/Bernard-HV220/Models/hv220.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Bernard HV 220</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+      <line>           Schneider Trophy (1931)            </line>
+      <line>----------------------------------------------</line>
+      <line> Bernard HV 220                               </line>
+      <line>                                              </line>
+      <line> Wingspan   :               ( 9.40 m )        </line>
+      <line> Lenght     :               ( 9.45 m )        </line>
+      <line> Height     :               ( 3.95 m )        </line>
+      <line> Powerplant :                                 </line>
+      <line>______________________________________________</line>
+    </help>
+
+    <menubar include="Dialogs/hv220-menu.xml"/>
+
+  </sim>
+
+  <input>
+    <keyboard include="Nasal/hv220-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <hv220> 
+      <file>Aircraft/Bernard-HV220/Nasal/doors.nas</file>
+      <file>Aircraft/Bernard-HV220/Nasal/liveries.nas</file>
+    </hv220>
+  </nasal>
+
+</PropertyList>
