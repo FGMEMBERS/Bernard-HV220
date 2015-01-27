@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <!-- Left -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.87834 </x-m>
+      <y-m> -0.37827 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> -30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.70923 </x-m>
+      <y-m> -0.37793 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> -30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.54621 </x-m>
+      <y-m> -0.37607 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> -30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.37222 </x-m>
+      <y-m> -0.37425 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> -30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.19701 </x-m>
+      <y-m> -0.36485 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> -30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.02545 </x-m>
+      <y-m> -0.35389 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> -30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <!-- Right -->
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.87834 </x-m>
+      <y-m>  0.37827 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> 30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.70923 </x-m>
+      <y-m>  0.37793 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> 30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.54621 </x-m>
+      <y-m>  0.37607 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> 30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.37222 </x-m>
+      <y-m>  0.37425 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> 30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.19701 </x-m>
+      <y-m>  0.36485 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> 30 </heading-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/Bernard-HV220/Models/Effects/cranking/cranking.xml</path>
+    <offsets>
+      <x-m> -2.02545 </x-m>
+      <y-m>  0.35389 </y-m>
+      <z-m>  0.05855 </z-m>
+      <heading-deg> 30 </heading-deg>
+    </offsets>
+  </model>
+  
+</PropertyList>

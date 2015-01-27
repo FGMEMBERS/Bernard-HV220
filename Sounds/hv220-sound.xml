@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
- 
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
 <PropertyList>
-
+  
   <fx>
-
+    
     <crank>
       <name>cranking</name>
       <mode>looped</mode>
@@ -18,7 +18,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </crank>
-
+    
     <engine>
       <name>enginerun</name>
       <mode>looped</mode>
@@ -26,7 +26,7 @@
       <condition>
         <property>/engines/engine/running</property>
       </condition>
-        <volume>
+      <volume>
         <property>/controls/engines/engine/throttle</property>
         <min>0.5</min>
         <max>1.00</max>
@@ -39,7 +39,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </engine>
-
+    
     <rumble>
       <name>rumble</name>
       <mode>looped</mode>
@@ -62,7 +62,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </rumble>
-
+    
     <squeal>
       <name>flotte</name>
       <path>Sounds/wave.wav</path>
@@ -100,7 +100,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </squeal>
- 
+    
     <wind>
       <name>wind</name>
       <mode>looped</mode>
@@ -121,7 +121,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </wind>
- 
+    
     <stall>
       <name>stall</name>
       <mode>looped</mode>
@@ -134,8 +134,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </stall>
-  
-      
+    
     <!--                  Toggle Switches                  -->     
     <switch>
       <name>click on</name>
@@ -150,7 +149,7 @@
       <reference-dist>100</reference-dist>
       <max-dist>1000</max-dist>
     </switch>
-
+    
     <switch>
       <name>click off</name>
       <mode>once</mode>
@@ -164,7 +163,7 @@
         <factor>0.45</factor>
       </volume>
     </switch>
-        
+    
   </fx>
- 
+  
 </PropertyList>
