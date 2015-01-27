@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <title>Bernard HV 220</title>
+  <line>______________________________________________</line>
+  <key>
+    <name>d</name>
+    <desc>Open/Close canopy</desc>
+  </key>
+  <line>           Schneider Trophy (1931)            </line>
+  <line>----------------------------------------------</line>
+  <line> Bernard HV 220                               </line>
+  <line>                                              </line>
+  <line> Wingspan   :               ( 9.40 m )        </line>
+  <line> Lenght     :               ( 9.45 m )        </line>
+  <line> Height     :               ( 3.95 m )        </line>
+  <line> Powerplant :                                 </line>
+  <line>______________________________________________</line>
+  
+</PropertyList>
