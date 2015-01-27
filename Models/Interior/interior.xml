@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -7,23 +7,18 @@
   <animation>
     <!-- Objets opaques -->
     <object-name>interieur</object-name>
-
+    <object-name>inttourvitre</object-name>
+    
     <!-- Objets transparents -->
     <object-name>intvitres</object-name>
   </animation>
 
-  <animation>
-    <type>noshadow</type>
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Bernard-HV220/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>shader.png</texture>
-    <object-name>intvitres</object-name>
-  </animation>
-
+  </effect>
+  
   <!-- Pilote -->
   <model>
     <name>Pilote</name>
@@ -47,21 +42,40 @@
 
   <!-- Canopy -->
   <animation>
-    <type>rotate</type>
+    <name>IntCanope</name>
     <object-name>intvitres</object-name>
-    <property>instrumentation/doors/crew/position-norm</property>
-    <factor>-179</factor>
+    <object-name>inttourvitre</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>IntCanope</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>IntCanope</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> -179 </factor>
     <center>
       <x-m> -0.431 </x-m>
       <y-m>  0.000 </y-m>
       <z-m>  0.803 </z-m>
     </center>
     <axis>
-      <x> 0.000 </x>
-      <y> 1.000 </y>
-      <z> 0.000 </z>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
     </axis>
   </animation>
 
 </PropertyList>
-
