@@ -10,6 +10,18 @@
     
     <flight-model>yasim</flight-model>
     <aero>hv220-yasim</aero>
+
+    <tags>
+      <tag>bernard</tag>
+      <tag>low-wing</tag>
+      <tag>floats</tag>
+      <tag>fixed-gear</tag>
+      <tag>single-engine</tag>
+      <tag>piston</tag>
+      <tag>seaplane</tag>
+      <tag>racer</tag>
+      <tag>1930s</tag>
+    </tags>
     
     <rating>
       <FDM type="int">     3 </FDM>
